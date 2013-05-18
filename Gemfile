@@ -28,5 +28,6 @@ group :development do
 end
 
 group :test do
+  gem 'delorean', require: false
   gem 'mocha', require: false
 end
