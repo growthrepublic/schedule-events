@@ -22,3 +22,11 @@ gem 'sqlite3'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+group :development do
+  gem 'annotate'
+end
+
+group :test do
+  gem 'mocha', require: false
+end
